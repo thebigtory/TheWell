@@ -165,29 +165,42 @@ a:visited {
 .emojis {
     display: flex;
     justify-content: center;
+    padding: 3.5dvw;
 }
 
 .bottom_vs {
-    height: 6.5dvw;
-    padding: 10px;
+    height: 7dvw;
     float: left;
+    padding-top: 3dvw;
+    padding-right: 5dvw;
     transition-duration: 0.4s;
 }
 .bottom_well {
-    height: 6.5dvw;
-    padding: 10px;
-    float: right;
+    height: 7.5dvw;
+    float: center;
+    padding-top: 3dvw;
     transition-duration: 0.4s;
 }
 .bottom_bh {
-    height: 6.5dvw;
-    padding: 10px;
+    height: 7dvw;
     float: right;
+    padding-top: 3.5dvw;
+    padding-left: 5dvw;
     transition-duration: 0.4s;
 }
 
-.bottom_vs:hover ,.bottom_well:hover ,.bottom_bh {
+.bottom_vs:hover {
     height: 7.5dvw;
+    transition-duration: 0.4s;
+}
+
+.bottom_well:hover {
+    height: 8.5dvw;
+    transition-duration: 0.4s;
+}
+
+.bottom_bh:hover{
+    height: 8.5dvw;
     transition-duration: 0.4s;
 }
 
