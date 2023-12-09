@@ -1,0 +1,227 @@
+/* IMPORT TAGS */
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&display=swap');
+
+/* font-family: 'Roboto Slab', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+
+
+/* BODY TAGS */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-left: 4.5dvw;
+    margin-right: 4.5dvw;
+    padding-bottom: 4.5dvw;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    background: url(images/background_wht.jpg);
+    background-size: cover;
+    animation: infinite 200s linear infinite;
+    color: black;
+}
+
+b {
+    font-weight: bolder;
+}
+
+/* ID TAGS */
+#logo {
+    font-size: 10dvw;
+    font-family: 'Fasthand', cursive;
+    cursor: default;
+}
+
+#navbar { 
+    display: flex;
+    justify-content: center;
+    color: black;
+    padding-bottom: 10px;
+}
+
+#navbar > * {
+    padding: 30px;
+}
+
+#socials {
+    display: flex;
+    justify-content: center;
+}
+
+#socials  > * {
+    padding: 30px;
+}
+
+#facebook, #insta, #snapchat {
+    display: flex;
+    align-items: center;
+}
+
+#loco_text {
+    font-size: 2dvw;
+    padding-bottom: 30px;
+}
+
+#superdesc {
+    font-size: 1dvw;
+}
+
+#bigtitle {
+    font-size: 3.55vw;
+}
+
+#menu {
+    padding: 30px;
+}
+
+#under_socials {
+    display: flex;
+    justify-content: center;
+}
+
+#phone, #email {
+    display: flex;
+    align-items: center;
+}
+
+
+#under_socials  > * {
+    padding: 30px;
+}
+
+p {
+    font-size: 1.5dvw;
+    text-align: center;
+    margin-left: 7dvw;
+    margin-right: 7dvw;
+}
+
+/* CLASS TAGS */
+.nav {
+    color: black;
+    text-transform: uppercase;
+    font-size: 2dvw;
+    text-decoration: underline;
+    transition-duration: 0.4s;
+}
+
+.nav:hover {
+    transform: translateY(-3.5px);
+    transition-duration: 0.4s;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.hours_list {
+    font-size: 3.25vw;
+    padding: 30px;
+}
+
+.social_text {
+    font-size: 1.5dvw;
+    cursor: pointer;
+    transition-duration: 0.4s;
+}
+
+.social_text:hover {
+    font-size: 1.75dvw;
+    transition-duration: 0.4s;
+}
+
+.social_icons {
+    font-size: 2.5vw;
+}
+
+.about_img {
+    height: 45dvw;
+    border-radius: 10px;
+}
+
+.menu_img {
+    border-radius: 2dvw;
+}
+
+.in_text_link {
+    font-style: italic;
+    font-weight: 900;
+    transition-duration: 0.4s;
+}
+
+.emojis {
+    display: flex;
+    justify-content: center;
+}
+
+.bottom_vs {
+    height: 6.5dvw;
+    padding: 10px;
+    float: left;
+    transition-duration: 0.4s;
+}
+.bottom_well {
+    height: 6.5dvw;
+    padding: 10px;
+    float: right;
+    transition-duration: 0.4s;
+}
+.bottom_bh {
+    height: 6.5dvw;
+    padding: 10px;
+    float: right;
+    transition-duration: 0.4s;
+}
+
+.bottom_vs:hover ,.bottom_well:hover ,.bottom_bh {
+    height: 7.5dvw;
+    transition-duration: 0.4s;
+}
+
+.disclaimer {
+    font-weight: bolder;
+    font-style: italic;
+}
+/* IMPORTED STYLES */
+.page {
+    overflow-y: scroll; /* Add the ability to scroll */
+}
+
+.page::-webkit-scrollbar {
+    display: none;
+}  
+
+.page {
+    -ms-overflow-style: none; 
+    scrollbar-width: none; 
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+/* scroller */
+@keyframes infinite {
+    0% {
+        background-position: 50% 0;
+    }
+    100% {
+        background-position: 50% -1000px;
+    }
+}
